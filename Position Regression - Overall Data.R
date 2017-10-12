@@ -57,4 +57,4 @@ tcpc=c(tcpc,targetcpc)
 output_df=data.frame(campaign_name,adgroup_name,keyword_name,tcpc,match_type)
 names(output_df)=colHeads
 output_df=output_df[-1,]
-write.csv(output_df,"/Users/advaithmohan/Advaith/Adwords/Sensitivity/Dates/June 1/Output/MobileItem_Output.csv",row.names=FALSE)
+write.csv(output_df,"./Output/MobileItem_Output.csv",row.names=FALSE)
